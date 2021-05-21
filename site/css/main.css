@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ff0000;*/
+}
+
+body {
+    font-family: 'KoHo';
+    /*background-color: #ff0000;*/
+    background-color: rgb(255,250,0);
+}
+
+nav {
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+    display: flex;
+}
+
+nav #logo img {
+    width: 300px;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+nav .menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 7px 0;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 30px;
+    color: #fd0000;
+}
+
+nav .menu li:hover {
+    background-color: rgba(0,0,0,.2);
+}
+
+.main-container .body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .body .section {
+    width: 500px;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+    background-color: rgba(0, 255, 100, .2);
+    border-radius: 10px;
+}
+
+.main-container .body .section h1 {
+    color: #ff0000;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-container .body .section p {
+    color: #5100bb;
+    padding: 0 10px;
+}
+
+.main-container .body .section #empezar {
+    width: auto;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.main-container .body .section #empezar a {
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
+.main-container .body .section #empezar:hover {
+    background-color: #ec5b5b;
+    cursor: pointer;
+}
+
+.main-container .info{
+	/*height: 110px;*/
+	height: auto;
+	text-align: center;
+	background-color: #000;
+}
+
+.main-container .info p{
+	padding: 50px 0;
+	color: rgb(0, 255, 255);
+	vertical-align: middle;
+}
+
+.main-container .info p strong{
+	color: #ff0000;
+}

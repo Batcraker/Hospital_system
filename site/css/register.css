@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ff0000;*/
+}
+
+body {
+    font-family: 'KoHo';
+    /*background-color: #ff0000;*/
+    background-color: rgb(238, 237, 202);
+}
+
+nav {
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+    display: flex;
+}
+
+nav #logo img {
+    width: 300px;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+nav .menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 7px 0;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 30px;
+    color: #fd0000;
+}
+
+nav .menu li:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo .form {
+    margin-top: 3%;
+    width: 900px;
+}
+
+.cuerpo .form h1 {
+    color: #fd0000;
+    text-align: center;
+}
+
+.form .info-header fieldset legend {
+    color: #ffffff;
+    font-size: 20px;
+    border: 2px solid rgb(255, 24, 100);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(240, 20, 130);
+}
+
+.names {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-header fieldset span {
+    color: #c204b2;
+    font-size: 20px;
+}
+
+.info-header fieldset {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header .names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header fieldset input[type='text'],
+input[type='date'] {
+    width: 250px;
+    padding: 5px 0px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 0.1px solid #000;
+    font-family: 'KoHo';
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info-header fieldset input[type='text'],
+input[type='date']:focus {
+    outline: none;
+}
+
+.info-header .names .one {
+    margin-top: 20px;
+}
+
+.info-header .other-data .one {
+    margin-top: 20px;
+}
+
+.info-header .names #primer-nombre,
+#primer-apellido {
+    margin-right: 10px;
+}
+
+.names .one,
+.two {
+    margin-bottom: 10px;
+}
+
+.info-header .other-data .one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.other-data #fecha-nacimiento {
+    margin-right: 10px;
+}
+
+.other-data input[type='date'] {
+    cursor: pointer;
+}
+
+.other-data .one input[type='date'] {
+    margin-left: 5px;
+}
+
+.other-data .two .ENFERMEDAD {
+    margin-left: 18px;
+}
+
+.other-data .two .ENFERMEDAD input[type='text'] {
+    margin-left: 5px;
+}
+
+.other-data .two .radios {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.other-data .two .radios input[type='radio'],
+label {
+    cursor: pointer;
+}
+
+.other-data .two .radios #ti,
+#cc,
+#pasport {
+    margin-left: 10px;
+}
+
+.other-data .two .radios span {
+    margin-right: 20px;
+}
+
+.other-data .DNI {
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.other-data .DNI input {
+    padding-left: 5px;
+}
+
+.other-data .sex {
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.other-data .sex span {
+    margin-right: 20px;
+}
+
+.info-header fieldset {
+    border: 1px solid rgb(255, 24, 100);
+}
+
+.info-header #btn_register {
+    width: auto;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(0, 255, 255);
+    color: #000;
+    font-weight: bold;
+    font-family: 'KoHo';
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.info-header #btn_register:hover {
+    background-color: rgb(0, 255, 150);
+}
+
+.god {
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: rgb(0, 255, 0);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'KoHo';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bad {
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'KoHo';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.info-header #data-base {
+    width: auto;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(0, 255, 155);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.info-header #data-base:hover {
+    background-color: rgb(0, 255, 255);
+}
+
+.info-header #data-base a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'KoHo';
+}
